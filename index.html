@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoridade na Prática | Isa Reis</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'isa-purple': '#3a1b35',
+                        'isa-purple-dark': '#261223',
+                        'isa-purple-light': '#5e2e56',
+                        'isa-gold': '#dcae3a',
+                        'isa-gold-hover': '#c29629',
+                    },
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-bg {
+            background: linear-gradient(135deg, #261223 0%, #3a1b35 100%);
+        }
+        .section-bg-alt {
+            background-color: #2e152a;
+        }
+        .gold-gradient-text {
+            background: linear-gradient(to right, #dcae3a, #fdf0a6, #dcae3a);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #261223; }
+        ::-webkit-scrollbar-thumb { background: #5e2e56; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #dcae3a; }
+    </style>
+</head>
+<body class="bg-isa-purple text-white font-sans antialiased leading-relaxed">
+
+    <!-- Header / Logo -->
+    <nav class="absolute top-0 left-0 w-full p-6 flex justify-center lg:justify-start lg:px-20 z-50">
+        <div class="text-2xl font-serif tracking-widest font-bold text-white">ISA REIS<span class="block text-xs font-sans tracking-normal font-light text-isa-gold">mentoria de autoridade</span></div>
+    </nav>
+
+    <!-- 1. HERO SECTION -->
+    <header class="hero-bg min-h-screen flex flex-col justify-center relative overflow-hidden px-4 py-24 lg:px-20">
+        <div class="absolute inset-0 bg-isa-gold/5 blur-[120px] rounded-full z-0"></div>
+        <div class="container mx-auto max-w-6xl relative z-10 flex flex-col lg:flex-row items-center">
+            <div class="w-full lg:w-1/2 flex flex-col justify-center items-center lg:items-start text-center lg:text-left mb-12 lg:mb-0">
+                <span class="inline-block py-1 px-3 rounded-full border border-isa-gold text-isa-gold text-xs font-bold tracking-widest mb-6">CURSO ONLINE</span>
+                <h1 class="text-5xl lg:text-7xl font-serif font-bold text-isa-gold mb-6 leading-tight gold-gradient-text">
+                    AUTORIDADE <br> NA PRÁTICA
+                </h1>
+                <p class="text-lg lg:text-xl font-light mb-6">
+                    O curso prático para mulheres empreendedoras que querem parar de se esconder atrás do que fazem e começar a se posicionar como a autoridade que desejam se tornar.
+                </p>
+                <p class="text-base lg:text-lg text-gray-300 font-light mb-10 border-l-2 border-isa-gold pl-4 text-left">
+                    Abra sua mente, lapide seu posicionamento e construa uma comunicação capaz de fazer o mercado perceber o valor do seu trabalho.
+                </p>
+                <a href="#oferta" class="inline-block bg-isa-gold hover:bg-isa-gold-hover text-isa-purple-dark font-bold text-lg px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 shadow-[0_0_20px_rgba(220,174,58,0.4)] text-center w-full sm:w-auto">
+                    QUERO COMEÇAR A CONSTRUIR MINHA AUTORIDADE
+                </a>
+            </div>
+            <div class="w-full lg:w-1/2 relative flex justify-center">
+                <img src="assets/foto-isa.jpg" alt="Isa Reis" class="relative z-10 w-4/5 lg:w-full max-w-md object-cover drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] rounded-2xl border border-isa-purple-light/30">
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. DESTINO FINAL -->
+    <section class="py-20 px-4 section-bg-alt text-center">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-sm font-bold tracking-widest text-isa-gold uppercase mb-4">Destino Final</h2>
+            <h3 class="text-3xl lg:text-4xl font-serif font-bold mb-8">De uma mulher que sabe fazer para uma mulher que sabe se posicionar.</h3>
+            <p class="text-lg mb-6 font-light">O destino não é simplesmente postar mais.</p>
+            <p class="text-lg mb-6 font-light">É construir uma presença que comunica quem você é, o que você defende, no que você acredita e por que o seu trabalho merece ser escolhido.</p>
+            <p class="text-lg mb-6 font-light">O Autoridade na Prática existe para levar você a um novo lugar: <strong>clareza para pensar, segurança para se posicionar e estratégia para comunicar.</strong></p>
+            <p class="text-lg mb-10 font-light">Porque antes de vender mais, você precisa aprender a ser percebida pelo valor que entrega.</p>
+            <div class="p-6 border border-isa-gold/30 rounded-xl bg-isa-purple-dark/50 max-w-2xl mx-auto">
+                <p class="text-xl font-serif italic text-isa-gold">"Essa é a bandeira: Mulheres que não querem apenas ter um negócio. Querem construir autoridade através dele."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. PROBLEMA E IDENTIFICAÇÃO -->
+    <section class="py-24 px-4 bg-isa-purple">
+        <div class="container mx-auto max-w-5xl">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-serif font-bold text-isa-gold mb-6">VOCÊ NÃO PRECISA DE MAIS UM CURSO DE INSTAGRAM.</h2>
+                <div class="max-w-3xl mx-auto space-y-4 font-light text-lg">
+                    <p>Talvez você já saiba fazer o seu trabalho. Talvez você seja excelente no que entrega. Talvez suas clientes até reconheçam sua capacidade.</p>
+                    <p class="font-medium text-white">Mas existe uma diferença entre ser boa no que você faz e ser percebida como autoridade naquilo que você faz.</p>
+                    <p>E é exatamente nesse espaço que muitas mulheres ficam presas.</p>
+                    <p>Você posta, mas não sabe exatamente o que dizer. Você conhece seu produto, mas não consegue transformar conhecimento em narrativa. Você tem experiência, mas ainda comunica como quem está pedindo permissão para ocupar espaço.</p>
+                    <p>Você quer chegar aos 10K, 20K, 30K ou até 50K por mês, mas percebe que o seu negócio não cresce na mesma velocidade que o seu desejo.</p>
+                    <p class="text-xl font-serif text-isa-gold mt-6">E talvez o problema não seja falta de capacidade. Talvez esteja faltando posicionamento.</p>
+                </div>
+            </div>
+
+            <div class="bg-isa-purple-dark rounded-3xl p-8 lg:p-12 border border-isa-purple-light/50 mt-16 shadow-2xl">
+                <h3 class="text-2xl font-bold mb-8 text-center">SE VOCÊ SE IDENTIFICA COM ISSO…</h3>
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <li class="flex items-start gap-4">
+                        <svg class="w-6 h-6 text-isa-gold shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                        <span class="font-light">Sente que tem muito conhecimento, mas não sabe transformar isso em conteúdo.</span>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <svg class="w-6 h-6 text-isa-gold shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                        <span class="font-light">Tem dificuldade para explicar claramente o que faz e por que faz.</span>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <svg class="w-6 h-6 text-isa-gold shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                        <span class="font-light">Publica nas redes sociais, mas sente que sua comunicação é genérica.</span>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <svg class="w-6 h-6 text-isa-gold shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                        <span class="font-light">Tem medo de se posicionar e desagradar.</span>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <svg class="w-6 h-6 text-isa-gold shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                        <span class="font-light">Se compara com outras empreendedoras e acaba diminuindo sua própria voz.</span>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <svg class="w-6 h-6 text-isa-gold shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                        <span class="font-light">Sabe que precisa aparecer, mas trava diante da câmera.</span>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <svg class="w-6 h-6 text-isa-gold shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                        <span class="font-light">Fala muito sobre o seu produto e pouco sobre a transformação que defende.</span>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <svg class="w-6 h-6 text-isa-gold shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                        <span class="font-light">Atrai pessoas interessadas, mas tem dificuldade de transformar atenção em percepção de valor.</span>
+                    </li>
+                    <li class="flex items-start gap-4 md:col-span-2">
+                        <svg class="w-6 h-6 text-isa-gold shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                        <span class="font-light">Quer aumentar seu faturamento, mas entende que precisa mudar a forma como o mercado percebe seu negócio.</span>
+                    </li>
+                </ul>
+                <div class="mt-10 text-center">
+                    <p class="text-2xl font-serif text-isa-gold font-bold">O Autoridade na Prática foi criado para você.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. A SOLUÇÃO E A PROMESSA -->
+    <section class="py-24 px-4 section-bg-alt relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCI+CjxwYXRoIGQ9Ik0wIDBoNDB2NDBIMHoiIGZpbGw9Im5vbmUiLz4KPHBhdGggZD0iTTAgMGwyMCAyMEw0MCAwIiBzdHJva2U9InJnYmEoMjIwLDE3NCw1OCwwLjA1KSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIi8+Cjwvc3ZnPg==')] opacity-50"></div>
+        <div class="container mx-auto max-w-4xl relative z-10">
+            
+            <div class="mb-20 text-center">
+                <h2 class="text-3xl lg:text-4xl font-serif font-bold text-isa-gold mb-8">O QUE ESTÁ POR TRÁS DO SEU POSICIONAMENTO?</h2>
+                <div class="space-y-4 font-light text-lg">
+                    <p>Antes de mudar sua bio, precisamos mudar a forma como você enxerga o seu próprio negócio.</p>
+                    <p>Antes de aprender a criar conteúdo, você precisa saber qual mensagem quer sustentar.</p>
+                    <p>Antes de querer vender mais, precisa entender qual percepção deseja construir.</p>
+                    <p class="mt-8">Por isso, o Autoridade na Prática trabalha de dentro para fora.</p>
+                    <div class="flex flex-wrap justify-center gap-2 items-center my-8 text-sm md:text-base font-bold tracking-widest text-isa-gold">
+                        <span>MENTALIDADE</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        <span>POSICIONAMENTO</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        <span>NARRATIVA</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        <span>COMUNICAÇÃO</span>
+                    </div>
+                    <p class="font-serif text-xl">Porque autoridade não começa no feed.<br>Começa na identidade da mulher que decidiu ocupar o lugar que deseja.</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+                <div class="bg-isa-purple p-8 rounded-2xl border border-isa-gold/20 h-full">
+                    <h3 class="text-2xl font-bold mb-4 text-isa-gold">O QUE É O CURSO?</h3>
+                    <p class="font-light mb-4">O Autoridade na Prática é um curso online, curto, direto e gravado, criado para mulheres empreendedoras que querem desenvolver uma mentalidade mais estratégica e começar a construir um posicionamento claro, intencional e coerente nas redes sociais.</p>
+                    <p class="font-light mb-4">Você vai entender os fundamentos que sustentam uma comunicação de autoridade e transformar esse conhecimento em ações práticas para o seu negócio.</p>
+                    <p class="font-light font-medium italic">Não é sobre postar por postar. É sobre saber o que você quer defender, como quer ser percebida e quais narrativas precisa começar a construir.</p>
+                </div>
+                
+                <div class="bg-isa-gold text-isa-purple-dark p-8 rounded-2xl border border-isa-gold h-full shadow-[0_0_30px_rgba(220,174,58,0.2)]">
+                    <h3 class="text-2xl font-bold mb-4">A PROMESSA</h3>
+                    <p class="font-medium mb-6">Em poucas horas de conteúdo, você vai sair da confusão para a clareza sobre o seu posicionamento e começar a construir uma comunicação mais estratégica, autêntica e percebida como autoridade.</p>
+                    <ul class="space-y-3 font-bold">
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                            Sem precisar copiar outras.
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                            Sem precisar criar uma personagem.
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                            Sem precisar de milhares de seguidores.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 5. O QUE VOCÊ VAI APRENDER (MÓDULOS) -->
+    <section class="py-24 px-4 bg-isa-purple relative">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-3xl lg:text-5xl font-serif font-bold text-center text-isa-gold mb-16">O QUE VOCÊ VAI APRENDER</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- Modulo 1 -->
+                <div class="bg-isa-purple-dark p-8 rounded-2xl border border-isa-purple-light hover:border-isa-gold transition-colors duration-300">
+                    <span class="text-isa-gold text-sm font-bold tracking-widest mb-2 block">MÓDULO 01</span>
+                    <h3 class="text-xl font-bold mb-4">A MENTE DA MULHER DE AUTORIDADE</h3>
+                    <p class="font-light mb-6 text-gray-300">Você vai identificar os padrões mentais que fazem muitas empreendedoras se esconderem, se diminuírem e comunicarem seus negócios abaixo do potencial que possuem.</p>
+                    <ul class="space-y-2 font-light text-sm">
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> O que impede uma mulher de ocupar espaço.</li>
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> A diferença entre insegurança e falta de clareza.</li>
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> Como parar de buscar validação para se posicionar.</li>
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> A relação entre identidade, percepção e autoridade.</li>
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> O primeiro movimento para sair da mentalidade de execução e assumir postura estratégica.</li>
+                    </ul>
+                </div>
+
+                <!-- Modulo 2 -->
+                <div class="bg-isa-purple-dark p-8 rounded-2xl border border-isa-purple-light hover:border-isa-gold transition-colors duration-300">
+                    <span class="text-isa-gold text-sm font-bold tracking-widest mb-2 block">MÓDULO 02</span>
+                    <h3 class="text-xl font-bold mb-4">POSICIONAMENTO: O LUGAR QUE VOCÊ DECIDE OCUPAR</h3>
+                    <p class="font-light mb-6 text-gray-300">Você vai entender que posicionamento não é apenas escolher um nicho ou escrever uma frase bonita na bio. É decidir qual lugar você quer ocupar na mente das pessoas.</p>
+                    <ul class="space-y-2 font-light text-sm">
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> O que realmente é posicionamento.</li>
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> Como identificar aquilo que você defende.</li>
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> Como definir sua bandeira.</li>
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> Como deixar sua comunicação mais clara.</li>
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> Como transformar conhecimento em percepção de valor.</li>
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> Como construir uma mensagem que tenha identidade.</li>
+                    </ul>
+                </div>
+
+                <!-- Modulo 3 -->
+                <div class="bg-isa-purple-dark p-8 rounded-2xl border border-isa-purple-light hover:border-isa-gold transition-colors duration-300">
+                    <span class="text-isa-gold text-sm font-bold tracking-widest mb-2 block">MÓDULO 03</span>
+                    <h3 class="text-xl font-bold mb-4">A SUA NARRATIVA</h3>
+                    <p class="font-light mb-6 text-gray-300">Toda autoridade sustenta uma narrativa. Você vai aprender a organizar as histórias, ideias, experiências e crenças da sua marca para transformar conteúdo em conexão.</p>
+                    <ul class="space-y-2 font-light text-sm">
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> Como construir sua narrativa.</li>
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> Quais histórias você precisa contar.</li>
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> Como transformar experiências em conteúdo.</li>
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> Como falar de si sem virar um diário.</li>
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> Como criar discursos que reforçam posicionamento.</li>
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> Comunicar o que você representa, não só o que vende.</li>
+                    </ul>
+                </div>
+
+                <!-- Modulo 4 -->
+                <div class="bg-isa-purple-dark p-8 rounded-2xl border border-isa-purple-light hover:border-isa-gold transition-colors duration-300">
+                    <span class="text-isa-gold text-sm font-bold tracking-widest mb-2 block">MÓDULO 04</span>
+                    <h3 class="text-xl font-bold mb-4">AUTORIDADE NA PRÁTICA</h3>
+                    <p class="font-light mb-6 text-gray-300">Agora é hora de colocar tudo em movimento. Você vai transformar clareza em comunicação.</p>
+                    <ul class="space-y-2 font-light text-sm">
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> Criar temas coerentes com seu posicionamento.</li>
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> Desenvolver conteúdos que sustentem sua autoridade.</li>
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> Construir uma comunicação mais intencional.</li>
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> Falar com mais segurança sobre o que domina.</li>
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> Criar conteúdos que educam, conectam e direcionam.</li>
+                        <li class="flex gap-2"><span class="text-isa-gold">✓</span> Presença digital alinhada ao negócio que deseja ter.</li>
+                    </ul>
+                </div>
+
+            </div>
+            
+            <div class="mt-16 text-center">
+                <a href="#oferta" class="inline-block bg-isa-gold hover:bg-isa-gold-hover text-isa-purple-dark font-bold text-lg px-8 py-4 rounded-full transition-all duration-300 shadow-[0_0_20px_rgba(220,174,58,0.4)]">
+                    QUERO ACESSAR OS MÓDULOS AGORA
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. O QUE VOCÊ VAI LEVAR / RECEBER & BONUS -->
+    <section class="py-24 px-4 section-bg-alt">
+        <div class="container mx-auto max-w-6xl">
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
+                <!-- O que você vai levar -->
+                <div>
+                    <h2 class="text-3xl font-serif font-bold text-isa-gold mb-6">O QUE VOCÊ VAI LEVAR</h2>
+                    <p class="font-light mb-8">Ao terminar o Autoridade na Prática, você terá muito mais do que aulas assistidas. Você terá uma nova lente para olhar para o seu negócio. Você vai desenvolver:</p>
+                    
+                    <div class="space-y-6">
+                        <div>
+                            <h4 class="font-bold text-isa-gold tracking-wider">CLAREZA</h4>
+                            <p class="font-light text-sm text-gray-300">Para entender o que você representa e o que deseja comunicar.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-isa-gold tracking-wider">POSICIONAMENTO</h4>
+                            <p class="font-light text-sm text-gray-300">Para ocupar um lugar mais definido na mente do seu público.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-isa-gold tracking-wider">SEGURANÇA</h4>
+                            <p class="font-light text-sm text-gray-300">Para comunicar sua experiência sem diminuir o próprio valor.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-isa-gold tracking-wider">NARRATIVA</h4>
+                            <p class="font-light text-sm text-gray-300">Para transformar sua história, conhecimento e visão em comunicação.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-isa-gold tracking-wider">DIREÇÃO & INTENCIONALIDADE</h4>
+                            <p class="font-light text-sm text-gray-300">Para saber os movimentos certos e parar de produzir conteúdo aleatório.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- O que você recebe -->
+                <div class="bg-isa-purple p-8 rounded-2xl border border-isa-gold">
+                    <h2 class="text-2xl font-serif font-bold text-white mb-6">O QUE VOCÊ RECEBE:</h2>
+                    <ul class="space-y-4 font-light">
+                        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-isa-gold shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> Curso online gravado.</li>
+                        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-isa-gold shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> Aulas objetivas e práticas.</li>
+                        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-isa-gold shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> Módulos de Mentalidade e Autoridade.</li>
+                        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-isa-gold shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> Exercícios de posicionamento e narrativa.</li>
+                        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-isa-gold shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> Material de apoio em PDF.</li>
+                        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-isa-gold shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> Atividades práticas para aplicar no negócio.</li>
+                        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-isa-gold shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> Acesso às aulas pelo período informado.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- BÔNUS -->
+            <h2 class="text-3xl font-serif font-bold text-center text-white mb-12">INCLUI TAMBÉM 3 BÔNUS EXCLUSIVOS</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Bonus 1 -->
+                <div class="bg-isa-purple-dark p-6 rounded-xl border-t-4 border-isa-gold text-center relative mt-6 md:mt-0">
+                    <div class="absolute -top-6 left-1/2 -translate-x-1/2 bg-isa-gold text-isa-purple-dark font-bold px-4 py-1 rounded-full text-sm">BÔNUS 01</div>
+                    <h3 class="text-lg font-bold mt-4 mb-2">MAPA DO POSICIONAMENTO</h3>
+                    <p class="font-light text-sm text-gray-300 mb-4">Um material prático para você organizar sua mensagem, sua bandeira, seu público e o lugar que deseja ocupar.</p>
+                    <p class="text-xs text-isa-gold line-through">Valor: R$ 97</p>
+                </div>
+                <!-- Bonus 2 -->
+                <div class="bg-isa-purple-dark p-6 rounded-xl border-t-4 border-isa-gold text-center relative mt-6 md:mt-0">
+                    <div class="absolute -top-6 left-1/2 -translate-x-1/2 bg-isa-gold text-isa-purple-dark font-bold px-4 py-1 rounded-full text-sm">BÔNUS 02</div>
+                    <h3 class="text-lg font-bold mt-4 mb-2">BANCO DE NARRATIVAS</h3>
+                    <p class="font-light text-sm text-gray-300 mb-4">Guia para ajudar a identificar histórias, experiências, opiniões e conhecimentos que podem se transformar em conteúdo.</p>
+                    <p class="text-xs text-isa-gold line-through">Valor: R$ 147</p>
+                </div>
+                <!-- Bonus 3 -->
+                <div class="bg-isa-purple-dark p-6 rounded-xl border-t-4 border-isa-gold text-center relative mt-6 md:mt-0">
+                    <div class="absolute -top-6 left-1/2 -translate-x-1/2 bg-isa-gold text-isa-purple-dark font-bold px-4 py-1 rounded-full text-sm">BÔNUS 03</div>
+                    <h3 class="text-lg font-bold mt-4 mb-2">CHECKLIST DA AUTORIDADE</h3>
+                    <p class="font-light text-sm text-gray-300 mb-4">Um checklist para analisar se sua comunicação está transmitindo clareza, coerência e posicionamento.</p>
+                    <p class="text-xs text-isa-gold line-through">Valor: R$ 47</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 7. PARA QUEM É / NÃO É -->
+    <section class="py-24 px-4 bg-isa-purple">
+        <div class="container mx-auto max-w-5xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Para quem é -->
+                <div>
+                    <h2 class="text-2xl font-serif font-bold text-isa-gold mb-6">PARA QUEM É?</h2>
+                    <p class="font-light mb-6">É para você que:</p>
+                    <ul class="space-y-4 font-light text-sm">
+                        <li class="flex gap-3"><span class="text-green-400">✔️</span> Já empreende ou está estruturando seu negócio.</li>
+                        <li class="flex gap-3"><span class="text-green-400">✔️</span> Tem conhecimento e experiência, mas não comunica com clareza.</li>
+                        <li class="flex gap-3"><span class="text-green-400">✔️</span> Quer fortalecer sua presença nas redes sociais.</li>
+                        <li class="flex gap-3"><span class="text-green-400">✔️</span> Quer ser reconhecida pelo valor do que faz.</li>
+                        <li class="flex gap-3"><span class="text-green-400">✔️</span> Deseja construir uma marca mais forte e autoridade.</li>
+                        <li class="flex gap-3"><span class="text-green-400">✔️</span> Tem ambição de crescer o negócio e faturamento.</li>
+                        <li class="flex gap-3"><span class="text-green-400">✔️</span> Entende que crescimento financeiro exige crescimento de posicionamento.</li>
+                    </ul>
+                </div>
+                
+                <!-- Para quem não é -->
+                <div class="bg-isa-purple-dark p-8 rounded-2xl">
+                    <h2 class="text-2xl font-serif font-bold text-red-400 mb-6">PARA QUEM NÃO É?</h2>
+                    <p class="font-light mb-4">O Autoridade na Prática <strong>não é</strong> para quem procura uma fórmula mágica para ganhar dinheiro rapidamente.</p>
+                    <p class="font-light mb-4">Também não é um curso que promete transformar seu negócio simplesmente porque você assistiu às aulas.</p>
+                    <p class="font-medium text-isa-gold mb-4">É para quem está disposta a pensar, aplicar, se posicionar e construir.</p>
+                    <p class="font-serif italic text-lg text-gray-400">"Porque conhecimento sem movimento continua sendo apenas conhecimento."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. SOBRE A ISA REIS -->
+    <section class="py-24 px-4 section-bg-alt">
+        <div class="container mx-auto max-w-5xl">
+            <div class="flex flex-col md:flex-row gap-12 items-center">
+                <div class="w-full md:w-1/3">
+                    <img src="assets/foto-isa.jpg" alt="Isa Reis" class="rounded-2xl shadow-2xl border border-isa-gold/30">
+                </div>
+                <div class="w-full md:w-2/3">
+                    <h2 class="text-xs font-bold tracking-widest text-isa-gold uppercase mb-2">Por que eu criei esse curso?</h2>
+                    <h3 class="text-3xl font-serif font-bold mb-6">SOBRE ISA REIS</h3>
+                    
+                    <div class="space-y-4 font-light text-sm md:text-base text-gray-300">
+                        <p>Isa Reis é mentora de mulheres empreendedoras e criadora da metodologia MAV — Mentalidade, Autoridade e Vendas.</p>
+                        <p>Durante minha trajetória, percebi um padrão: Existem muitas mulheres competentes escondidas atrás de uma comunicação pequena. Mulheres que sabem fazer, que estudaram, mas ainda não aprenderam a transformar tudo isso em autoridade percebida.</p>
+                        <p>Foi por isso que criei o Autoridade na Prática. Para começar pelo fundamento. Antes da estratégia sofisticada, do funil, de escalar. <strong>Primeiro mentalidade. Depois estratégia.</strong> Porque a mulher que deseja construir um negócio grande precisa começar construindo a mulher capaz de sustentá-lo.</p>
+                        <p>Depois de mais de uma década na enfermagem, Isa viveu uma transição profissional e construiu sua atuação no empreendedorismo. Hoje, através da Comunidade Águias, conduz mulheres em processos de mentalidade, posicionamento e crescimento.</p>
+                        <p class="text-xl font-serif text-isa-gold mt-6 italic">"Seja intuitiva. Estratégica. Intencional."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. OFERTA -->
+    <section id="oferta" class="py-24 px-4 bg-isa-purple relative">
+        <!-- Glow effect -->
+        <div class="absolute inset-0 bg-isa-gold/10 blur-[150px] rounded-full z-0 pointer-events-none"></div>
+        
+        <div class="container mx-auto max-w-4xl relative z-10">
+            <div class="bg-isa-purple-dark border-2 border-isa-gold rounded-3xl p-8 md:p-12 text-center shadow-[0_0_50px_rgba(220,174,58,0.15)]">
+                <h2 class="text-4xl font-serif font-bold text-white mb-6">O INVESTIMENTO</h2>
+                <p class="font-light mb-8 max-w-2xl mx-auto text-gray-300">
+                    Você poderia passar meses tentando descobrir sozinha, testando formatos sem entender o que funciona. O Autoridade na Prática foi criado para encurtar esse caminho.
+                </p>
+                
+                <div class="mb-8">
+                    <p class="text-sm font-light text-gray-400">O seu acesso ao curso + materiais + bônus representa:</p>
+                    <p class="text-lg text-red-400 line-through mb-2">R$ 291 em valor percebido</p>
+                    <p class="text-sm font-bold tracking-widest text-isa-gold uppercase">Mas hoje, você pode começar por apenas:</p>
+                </div>
+                
+                <div class="mb-10">
+                    <div class="text-5xl md:text-7xl font-bold text-isa-gold mb-2 leading-none">
+                        <span class="text-2xl align-top">12x R$</span>9,70
+                    </div>
+                    <p class="text-xl font-light">ou R$ 97 à vista</p>
+                </div>
+                
+                <p class="font-light text-sm mb-8 text-gray-300">Um investimento pequeno para começar uma mudança grande na forma como você comunica o seu negócio.</p>
+                
+                <!-- CHECKOUT LINK GOES HERE -->
+                <a href="#" class="inline-block w-full md:w-auto bg-isa-gold hover:bg-isa-gold-hover text-isa-purple-dark font-bold text-xl px-12 py-5 rounded-full transition-all duration-300 transform hover:scale-105 shadow-[0_0_20px_rgba(220,174,58,0.5)] animate-pulse">
+                    QUERO CONSTRUIR MINHA AUTORIDADE
+                </a>
+                
+                <!-- Guarantee Seal -->
+                <div class="mt-12 flex flex-col md:flex-row items-center justify-center gap-6 text-left border-t border-isa-purple-light pt-8">
+                    <img src="https://cdn-icons-png.flaticon.com/512/6973/6973417.png" alt="Garantia" class="w-16 h-16" style="filter: invert(75%) sepia(43%) saturate(543%) hue-rotate(352deg) brightness(91%) contrast(89%);">
+                    <div>
+                        <h4 class="font-bold text-lg text-isa-gold">7 DIAS DE GARANTIA</h4>
+                        <p class="text-xs font-light text-gray-400 max-w-sm">Você terá 7 dias para acessar o conteúdo. Se entender que não faz sentido, poderá solicitar o cancelamento sem justificar. Você não precisa comprar no escuro.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. FAQ & OBJEÇÕES -->
+    <section class="py-24 px-4 section-bg-alt">
+        <div class="container mx-auto max-w-4xl">
+            
+            <div class="bg-isa-purple-dark p-8 rounded-2xl border border-isa-purple-light mb-16 text-center">
+                <h3 class="text-2xl font-serif font-bold text-isa-gold mb-4">E SE EU AINDA ESTIVER COMEÇANDO?</h3>
+                <p class="font-medium text-lg mb-4">Melhor ainda.</p>
+                <p class="font-light text-gray-300">Você não precisa ter milhares de seguidores para começar a construir autoridade. Não precisa faturar 50K. Não precisa ter uma equipe. Não precisa ter tudo pronto.</p>
+                <p class="font-light text-gray-300 mt-4">Você precisa começar a construir clareza sobre quem você é, o que você defende e qual transformação deseja entregar.</p>
+                <p class="font-serif text-xl text-isa-gold mt-6 font-bold">Autoridade não é um lugar onde você chega. É uma percepção que você constrói.</p>
+            </div>
+
+            <h2 class="text-3xl font-serif font-bold text-center mb-12">PERGUNTAS FREQUENTES</h2>
+            
+            <div class="space-y-4">
+                <!-- FAQ Item -->
+                <div class="bg-isa-purple p-6 rounded-xl border border-isa-purple-light">
+                    <h4 class="font-bold text-isa-gold mb-2">Quando terei acesso?</h4>
+                    <p class="font-light text-sm">O acesso será liberado conforme as condições apresentadas na página de checkout após a confirmação do pagamento.</p>
+                </div>
+                <!-- FAQ Item -->
+                <div class="bg-isa-purple p-6 rounded-xl border border-isa-purple-light">
+                    <h4 class="font-bold text-isa-gold mb-2">O curso é ao vivo?</h4>
+                    <p class="font-light text-sm">Não. O Autoridade na Prática é um curso gravado, criado para que você possa assistir no seu ritmo e aplicar os exercícios no seu negócio.</p>
+                </div>
+                <!-- FAQ Item -->
+                <div class="bg-isa-purple p-6 rounded-xl border border-isa-purple-light">
+                    <h4 class="font-bold text-isa-gold mb-2">Por quanto tempo terei acesso?</h4>
+                    <p class="font-light text-sm">O período de acesso será informado no momento da compra.</p>
+                </div>
+                <!-- FAQ Item -->
+                <div class="bg-isa-purple p-6 rounded-xl border border-isa-purple-light">
+                    <h4 class="font-bold text-isa-gold mb-2">Preciso ter experiência para fazer?</h4>
+                    <p class="font-light text-sm">Não. O conteúdo foi pensado para mulheres empreendedoras em diferentes momentos, desde que tenham o desejo de construir um posicionamento mais claro e estratégico.</p>
+                </div>
+                <!-- FAQ Item -->
+                <div class="bg-isa-purple p-6 rounded-xl border border-isa-purple-light">
+                    <h4 class="font-bold text-isa-gold mb-2">O curso ensina tráfego pago ou a criar conteúdo do zero?</h4>
+                    <p class="font-light text-sm">Não. O foco do Autoridade na Prática é mentalidade, posicionamento, narrativa e comunicação de autoridade. Você aprenderá os fundamentos para construir conteúdos alinhados ao seu posicionamento.</p>
+                </div>
+                <!-- FAQ Item -->
+                <div class="bg-isa-purple p-6 rounded-xl border border-isa-purple-light">
+                    <h4 class="font-bold text-isa-gold mb-2">O curso garante faturamento?</h4>
+                    <p class="font-light text-sm">Não. O curso entrega conhecimento, direcionamento e ferramentas práticas. Os resultados dependem de diversos fatores, incluindo aplicação, contexto, mercado, oferta, execução e consistência.</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- 11. FOOTER CTA -->
+    <footer class="py-24 px-4 bg-isa-purple text-center border-t border-isa-purple-light">
+        <div class="container mx-auto max-w-3xl">
+            <h2 class="text-3xl font-serif font-bold text-isa-gold mb-8 leading-tight">SUA PRÓXIMA FASE NÃO COMEÇA COM MAIS UM POST.</h2>
+            <div class="font-light text-lg space-y-2 mb-10 text-gray-300">
+                <p>Começa quando você decide parar de comunicar seu negócio de qualquer maneira.</p>
+                <p>Quando entende que sua experiência tem valor.</p>
+                <p>Quando deixa de copiar discursos e começa a construir o seu.</p>
+                <p>Quando entende que posicionamento não é parecer alguém. É deixar claro quem você é.</p>
+            </div>
+            
+            <p class="font-serif text-2xl font-bold mb-10 text-white">Sua autoridade começa quando você decide ocupá-la.</p>
+            
+            <a href="#oferta" class="inline-block bg-isa-gold hover:bg-isa-gold-hover text-isa-purple-dark font-bold text-lg px-10 py-4 rounded-full transition-all duration-300 shadow-lg">
+                QUERO COMEÇAR AGORA
+            </a>
+            
+            <div class="mt-20 pt-8 border-t border-isa-purple-dark text-xs font-light text-gray-500 max-w-4xl mx-auto text-left">
+                <p class="mb-4">AVISO LEGAL: “Nenhuma informação contida neste produto deve ser interpretada como uma afirmação da obtenção de resultados. Qualquer referência ao desempenho passado ou potencial de uma estratégia abordada no conteúdo não é, e não deve ser interpretada como uma recomendação ou como garantia de qualquer resultado específico.”</p>
+                <p class="text-center">© 2026 Isa Reis. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
